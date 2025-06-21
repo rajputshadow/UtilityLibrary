@@ -1,8 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<!-- NuGet package properties -->
+		<PackageId>DotnetUtilityLibrary</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Shubham Singh</Authors>
+		<Company>ChaiPeCode</Company>
+		<Description>
+A versatile .NET Standard 2.1 utility library designed for seamless integration. Provides essential helpers and components to accelerate development and simplify common tasks in any .NET project.
+		</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/rajputshadow/UtilityLibrary</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Title>Multipurpose Dotnet Library</Title>
+		<Copyright>@ChaiPeCode(shubhamsingh)</Copyright>
+		<EnforceCodeStyleInBuild>False</EnforceCodeStyleInBuild>
+		<UserSecretsId>67488d86-0a5f-4d2a-a866-2c36cfff5112</UserSecretsId>
+	</PropertyGroup>
 
 </Project>
